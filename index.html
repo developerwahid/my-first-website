@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AID PROJECT</title>
+<link rel="icon" type="icon" href="./images/icons/onlinelogo.png">
+<link rel="stylesheet" href="maincss/main.css">
+<link rel="stylesheet" href="maincss/responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="maincss/owl.theme.green.css"> 
+   <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <!----------------font---awesome-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!----------------animation-----style-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!------------animation----scroll-->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <!------------gallery-------------->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Latest JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+       <div id="preloder">
+        <div id="status">&nbsp;</div>
+    </div> 
+    <a class="scrollTop" href="#"><i class="fa fa-chevron-up"></i></a>
+    <header class="main-header">
+    
+      <nav class="navbar navbar-expand-md fixed-top header-top">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/icons/onlinelogo.png" class="img-fluid" alt="">
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class='fas fa-stream navbar-toggler-icon'></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu">
+              <li class="nav-item">
+                <a class="nav-link active" href="#slider">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">team</a>
+              </li>
+            </ul> 
+            <div class="d-flex">
+              <li class="nav-item">
+                <a href="contact.html" class="btn-one">CONTACT</a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+ </header> 
+  
+<!----------------------video------------------------slider------------------------------> 
+<section id="slider">
+<div id="video-carousel-example" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#video-carousel-example" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#video-carousel-example" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#video-carousel-example" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <video class="video" autoplay muted loop>
+            <source src="./images/mainslider/slider-1.mp4" type="video/mp4" >
+          </video>
+          <div class="carousel-caption">
+            <h1 class="animated bounceInRight" style="animation-delay: 1s">Architecture is a <br> <span id="color"> Visual Art</span></h1>
+            <p class="animated bounceInLeft" style="animation-delay: 2s; color: yellow;" >The Buliding Speak For Thems.</p>
+              <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#" class="btn-one">Learn More</a></p>
+          </div>
+        </div>
+          <div class="carousel-item">
+          <video class="video" autoplay muted loop>
+            <source src="./images/mainslider/slider-2.mp4" type="video/mp4">
+          </video>
+          <div class="carousel-caption">
+            <h1 class="animated bounceInRight" style="animation-delay: 1s">Architecture is a <br> <span id="color"> Visual Art</span></h1>
+             <p class="animated bounceInLeft" style="animation-delay: 2s; color: yellow;" >The Buliding Speak For Thems.</p>
+              <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#" class="btn-one">Learn More</a></p>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <video class="video" autoplay muted loop>
+              <source src="./images/mainslider/slider-3.mp4" type="video/mp4"> 
+            </video>
+            <div class="carousel-caption">
+              <h1 class="animated bounceInRight" style="animation-delay: 1s">Architecture is a <br> <span id="color"> Visual Art</span></h1>
+              <p class="animated bounceInLeft" style="animation-delay: 2s; color: yellow;" >The Buliding Speak For Thems.</p>
+                <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#" class="btn-one">Learn More</a></p>
+            </div>
+            </div>
+    </div>
+    </div>
+  </section>
+        
+<!----------about-----start-->
+<section id="about">
+      <div class="container-fluid">
+        <div class="text-center">
+       <h1><b>ABOUT <span id="color">US</span></b></h1>
+       <div class="border" data-aos="zoom-out-up"></div>
+       </div>
+        <div class="row my-6 my-md-0 text-center text-md-start">
+          <div class="col-md-6">
+             <video class="video" autoplay muted loop>
+                <source src="./images/mainslider/about-us.mp4" type="video/mp4"> 
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          <div class="col-md-6 flex-md-row-reverse">
+            <div class="text-center">
+           <h3><b>Any Complexity<br>For Any Cat</b></h3>
+           <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aut minus molestias aliquid rem at voluptate soluta reiciendis tempore possimus impedit blanditiis asperiores,
+              quis eum in amet debitis, praesentium voluptas.</p>
+              <br>
+              <a href="#" class="btn-one">About Us</a>
+              </div>
+              </div>
+              </div>
+             </div>
+        </div>
+   </section>
+ <!-------------------->
+<section  id="specializaton">
+        <div class="font">
+          <h5 style="color: white;"><b>Our Specialization</b></h5>
+          <h1 data-aos="zoom-in"><span id="color"><b>Our Specialization</b></span></h1>
+          </div>
+          <div class="container">
+       <div id="project" class="owl-carousel owl-theme">
+           <div class="card">
+               <div class="imgBox">
+               <img src="./images/gallery/image-1.jpg" class="img-fluid" alt="">
+               </div>
+               <h4>Architecture <span id="color">Desing</span></h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+               <a href="./gallery.html" class="btn btn-outline-dark">read more</a>
+           </div>
+           <div class="card">
+               <div class="imgBox">
+               <img src="./images/gallery/image-2.jpg" class="img-fluid" alt="">
+               </div>
+               <h4>Interior <span id="color">Desing</span></h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+               <a href="./gallery.html" class="btn btn-outline-dark">read more</a>
+               </div>
+           <div class="card">
+               <div class="imgBox">
+               <img src="./images/gallery/image-3.jpg" class="img-fluid" alt="">
+               </div>
+               <h4>Corporate <span id="color">Desing</span></h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+               <a href="./gallery.html" class="btn btn-outline-dark">read more</a>    
+           </div>
+           <div class="card">
+               <div class="imgBox">
+               <img src="./images/gallery/image-4.jpg" class="img-fluid" alt="">
+               </div>
+               <h4>Architecture <span id="color">Desing</span></h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+               <a href="./gallery.html" class="btn btn-outline-dark">read more</a>
+           </div>
+           <div class="card">
+               <div class="imgBox">
+               <img src="./images/gallery/image-5.jpg" class="img-fluid" alt="">
+               </div>
+               <h4>Interior<span id="color">Desing</span></h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+               <a href="./gallery.html" class="btn btn-outline-dark">read more</a> 
+           </div>
+           <div class="card">
+               <div class="imgBox">
+               <img src="./images/gallery/image-6.jpg" class="img-fluid" alt="">
+               </div>
+               <h4>corpporate <span id="color">Desing</span></h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+               <a href="./gallery.html" class="btn btn-outline-dark">read more</a>
+           </div>
+           <div class="card">
+               <div class="imgBox">
+               <img src="./images/gallery/image-7.jpg" class="img-fluid" alt="">
+               </div>
+               <h4>Architecture <span id="color">Desing</span></h4>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they.</p>
+               <a href="./gallery.html" class="btn btn-outline-dark">read more</a>
+           </div>
+       </div>
+    </div>
+    </section>
+<!-----------Service-->
+<section id="services">
+  <div class="container">
+      <h1 data-aos="zoom-out-up"><span id="color"><b>services</b></span></h1>
+      <div class="border" data-aos="zoom-out-up"></div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="card text-center" data-aos="fade-up">
+          <div class="counter-icon">
+           <img src="./images/icons/architecture.png" class="img-fluid" alt="">
+          </div>
+          <h3>plans & project</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque veniam sint incidunt consectetur doloribus minima.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card text-center" data-aos="flip-left">
+          <div class="counter-icon">
+            <img src="./images/icons/design-thinking.png" alt="">
+          </div>
+          <h3>interior</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque veniam sint incidunt consectetur doloribus minima.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card text-center" data-aos="flip-right">
+          <div class="counter-icon">
+            <img src="./images/icons/staircase (1).png" class="img-fluid" alt="">
+          </div>
+          <h3>design</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque veniam sint incidunt consectetur doloribus minima.</p>
+        </div>
+      </div>  
+    </div>
+  <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="card text-center" data-aos="zoom-in-up">
+          <div class="counter-icon">
+           <img src="./images/icons/architect.png" class="img-fluid" alt="">
+          </div>
+          <h3>architectur</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque veniam sint incidunt consectetur doloribus minima.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="card text-center" data-aos="flip-left">
+          <div class="counter-icon">
+           <img src="./images/icons/sofa.png" class="img-fluid" alt="">
+          </div>
+          <h3>furniture</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque veniam sint incidunt consectetur doloribus minima.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="card text-center" data-aos="flip-right">
+          <div class="counter-icon">
+           <img src="./images/icons/decorating.png" class="img-fluid" alt="">
+          </div>
+          <h3>decoration</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque veniam sint incidunt consectetur doloribus minima.</p>
+        </div>
+      </div>
+       </div>
+  </div>
+</section>
+<!-----------Service----end----->
+<section id="counter" class="counting">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card-1 text-center">
+          <div class="counter-icon">
+            <img src="./images/icons/experience (1).png" class="img-fluid" alt="">
+          </div>
+          <h4>Years of Experience</h4>
+          <p><span class="counter">10</span>*</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card-1 text-center">
+          <div class="counter-icon">
+          <img src="./images/icons/project.png" alt="">
+          </div>
+          <h4>Project Taken</h4>
+          <p><span class="counter">235</span>*</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card-1 text-center">
+          <div class="counter-icon">
+          <img src="./images/icons/graphic-design.png" alt="">
+          </div>
+          <h4>graphics design</h4>
+          <p><span class="counter">70</span>k</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card-1 text-center">
+          <div class="counter-icon">
+           <img src="./images/icons/trophy (1).png" alt="">
+          </div>
+          <h4>Awards won</h4>
+          <p><span class="counter">10</span>*</p>
+      </div>
+    </div>
+    </div>
+    </div>
+
+</section>
+<br>
+<!---------our---team-->
+<section id="contact" class="team">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <h2 style="color: white;">our team</h2>
+      <div class="border" data-aos="fade-up"></div>
+      <h1 style="color: white;"><b><span id="color">Profect </span>Expert</b></h1>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <a href="./clintes.html">
+          <img src="./images/ourteam/team-2.jpg" class="img-fluid" alt=""></a>
+          <div class="member-icon"><br>
+            <a href="https://www.facebook.com/wahidchoudhary2/" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/wahidchoudhary1/" class="instragram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="linked" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/developerwahid" class="github" target="_blank"><i class="fab fa-github"></i></i></a>
+           </div>
+           <div class="member-info">
+          <h1 class="name">wahid</h1>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <a href="./clintes.html">
+          <img src="./images/ourteam/team-4.jpg" class="img-fluid" alt=""></a>
+          <div class="member-icon"><br>
+            <a href="https://www.facebook.com/wahidchoudhary2/" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/wahidchoudhary1/" class="instragram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="linked" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/developerwahid" class="github" target="_blank"><i class="fab fa-github"></i></i></a>
+           </div>
+           <div class="member-info">
+          <h1 class="name">wahid</h1>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="member" data-aos="fade-up">
+          <div class="member-img">
+            <a href="./clintes.html">
+          <img src="./images/ourteam/team-6.jpg" class="img-fluid" alt=""></a>
+          <div class="member-icon"><br>
+            <a href="https://www.facebook.com/wahidchoudhary2/" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/wahidchoudhary1/" class="instragram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="linked" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/developerwahid" class="github" target="_blank"><i class="fab fa-github"></i></i></a>
+           </div>
+           <div class="member-info">
+          <h1 class="name">wahid</h1>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<!--------------our---project------>
+<section class="galler">
+  <div class="container-fluid">
+    <div class="text-center">
+      <h1><b><span id="color">Our</span> project</b></h1>
+      <div class="border"></div>
+    </div>
+  <div id="gallery" class="owl-carousel owl-theme">
+    <div class="img-wrapper">
+      <a href="./images/gallery/bedroom-3.jpg">
+    <img src="./images/gallery/bedroom-3.jpg" alt="">
+  </a>
+  </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/staircase-4.jpg">
+      <img src="./images/gallery/staircase-4.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/bedroom-6.jpg">
+      <img src="./images/gallery/bedroom-6.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/3.jpg">
+      <img src="./images/gallery/3.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/office-1.jpg">
+        <img src="./images/gallery/office-1.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/5.jpg">
+        <img src="./images/gallery/5.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/livingroom-3.jpg">
+        <img src="./images/gallery/livingroom-3.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/4.jpg">
+        <img src="./images/gallery/4.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/wall-7.jpg">
+        <img src="./images/gallery/wall-7.jpg" alt="">
+      </a>
+    </div>
+    <div class="img-wrapper">
+      <a href="./images/gallery/2.jpg">
+        <img src="./images/gallery/2.jpg" alt="">
+      </a>
+    </div>
+  </div>  
+</div>
+</section>
+<br><br>
+ <!-----------clintes-----end-->  
+ <section id="company-logo-1">
+  <div class="container">
+      <div class="company-logo">
+      <div class="clients-carousel owl-carousel">
+       <div class="logo">
+         <img src="./images/clientslogo/1.png" class="img-fluid" alt="">
+       </div>
+       <div class="logo">
+        <img src="./images/clientslogo/2.png" class="img-fluid" alt="">
+      </div>
+      <div class="logo">
+        <img src="./images/clientslogo/3.png" class="img-fluid" alt="">
+      </div>
+      <div class="logo">
+        <img src="./images/clientslogo/4.png" class="img-fluid" alt="">
+      </div>
+      <div class="logo">
+        <img src="./images/clientslogo/5.png" class="img-fluid" alt="">
+      </div>
+      </div>
+    </div>
+    </div>
+</section>
+<!-------clintes-----start------>
+<section id="clint">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="clintes-text text-center">
+        <h1>"what clints says"</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Eligendi recusandae debitis, ad, illo,
+          natus architecto fuga modi aperiam maiores illum obcaecati
+           placeat voluptatum? Labore, nobis.</p>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="single-box">
+                <div class="img-area">
+                  <img src="./images/ourteam/thumb-2.jpg" class="img-fluid" alt="">
+                  </div>
+                <div class="content text-center">
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aliquam, doloribus minima praesentium laborum ea earum."</p>
+                    <h5>scott grey</h5>
+                  <h6>architect</h6>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="single-box">
+                <div class="img-area">
+                  <img src="./images/ourteam/thumb-6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content">
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aliquam, doloribus minima praesentium laborum ea earum."</p>
+                  <h5>chery ray</h5>
+                  <h6>interior desingner</h6>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="single-box">
+                <div class="img-area">
+                  <img src="./images/ourteam/author-8.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content">
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aliquam, doloribus minima praesentium laborum ea earum."</p>
+                    <h5>wahiz</h5>
+                  <h6>project manager</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </div>
+    
+    </div>
+  </div>
+</section>
+<!-------footer-----start-->
+<footer>
+  <div id="footer-area">
+    <div class="contanier-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="single-footer">
+          <div class="copy">             
+          <div class="box-1">
+            <a href="https://www.facebook.com/wahidchoudhary2/" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/wahidchoudhary1/" class="instragram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="linked" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/wahid-choudhary-51340b185/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/developerwahid" class="github" target="_blank"><i class="fab fa-github"></i></i></a>
+           </div>
+           </div>
+      </div>
+      </div>
+    </div>
+ 
+      <div class="row">
+          <div class="col-md-3 col-sm-6">
+              <div class="single-footer text-center">
+              <img src="./images/icons/onlinelogo.png" class="img-fluid" alt="logo">
+              <div class="border"></div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque reprehenderit beatae quidem, exercitationem aliquid esse fugiat, aspernatur soluta possimus vel sed
+               sapiente officia consectetur, quas repellat perspiciatis at? Aspernatur?</p>
+          </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="single-footer">
+                  <h5>our contact</h5>
+                  <div class="border"></div>
+                  <ul class="link-area text-center">
+           
+                    <li>
+                      <a href="https://goo.gl/maps/KRw5rBorxnpS7K2Z9/" target="_blank"><i class="far fa-map"> HOME</i></a>
+                    </li>
+                    <li>
+                      <a href="mailto:wahidchoudhary2@gmail.com"><i class="fas fa-mail-bulk"> wahidchoudhary2@gamil.com</i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fas fa-phone-alt"> +918285779845</i></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/developerwahid" target="blank"><i class="fab fa-git-square"> GITHUB WORK</i></a>
+                    </li>
+                </ul>
+                </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="single-footer">
+                  <h5>useful link</h5>
+                  <div class="border"></div>
+                  <ul class="link-area text-center">
+                    <li>
+                      <a href="#about"><i class="far fa-arrow-alt-circle-right"> ABOUT</i></a>
+                    </li>
+                    <li>
+                      <a href="#services"><i class="far fa-arrow-alt-circle-right"> SERVICE</i></a>
+                    </li>
+                    <li>
+                      <a href="#gallery"><i class="far fa-arrow-alt-circle-right"> PROJECT</i></a>
+                    </li>
+                    <li>
+                      <a href="contact.html"><i class="far fa-arrow-alt-circle-right"> CONTACT</i></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="single-footer">
+                  <h5>recent work</h5>
+                  <div class="border"></div>
+                  <ul class="link-area widget list-inline">
+                      <li>
+                          <a href="./gallery.html"> <img src="./images/ourteam/work-thumb-1.jpg" class="img-fluid" alt=""></a>
+                      </li>
+                      <li>
+                          <a href="./gallery.html"> <img src="./images/ourteam/work-thumb-2.jpg" class="img-fluid" alt=""></a>
+                      </li>
+                      <li>
+                          <a href="./gallery.html"> <img src="./images/ourteam/work-thumb-3.jpg" class="img-fluid" alt=""></a>
+                      </li>
+                      <li>
+                          <a href="./gallery.html"> <img src="./images/ourteam/work-thumb-4.jpg" class="img-fluid" alt=""></a>
+                      </li>
+                      <li>
+                          <a href="./gallery.html"> <img src="./images/ourteam/work-thumb-5.jpg" class="img-fluid" alt=""></a>
+                      </li>
+                      <li>
+                          <a href="./gallery.html"> <img src="./images/ourteam/work-thumb-6.jpg" class="img-fluid" alt=""></a>
+                      </li>
+              </ul>
+          </div>
+        </div>     
+          </div>
+      </div>
+    </div>
+</footer>
+</body>
+   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<script src="./mainjs/script.js"></script>
+<script src="mainjs/jquery.counterup.min.js"></script>
+<script src="mainjs/jquery.waypoints.min.js"></script>
+<script src="mainjs/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 250,
+    delay: 100,
+    duration: 2000,
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $('#project').owlCarousel({
+    loop:true,
+    margin:20,
+    autoplay:true,
+    dotsContainer:true,
+    autoplaySpeed:2000,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1500:{
+            items:3
+        }
+    }
+})
+});
+
+$(document).ready(function(){
+     if ( $('.clients-carousel').length !== 0 ){
+        $('.clients-carousel').owlCarousel({
+            loop: true,
+            nav: false,
+            dots:false,
+            slideTransition:'linear',
+            autoplayTimeout:4500,
+            autoplayHoverPause:true,
+            autoplay: true,
+            autoplaySpeed: 4500,
+            margin:10,
+         responsive:{
+             0:{
+                 items:2
+             },  
+             600:{
+                 items:3
+             },
+             1000:{
+                 items:4
+             },
+             1500:{
+                 items:5
+             }
+         }
+     })
+     }
+});  
+
+$(document).ready(function(){
+    $('#gallery').owlCarousel({
+        loop: true,
+        nav: false,
+        autoplay: true,
+        margin:4,
+        autoplaySpeed: 1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+        1500:{
+            items:4
+        }
+    }
+})
+});
+</script>
+<script>
+  $('.img-wrapper').each(function() { // the containers for all your galleries
+$('.img-wrapper').magnificPopup({
+    delegate: 'a', // the selector for gallery item
+    type: 'image',
+    gallery: {
+      enabled:true
+    }
+});
+});
+</script>
+</html>

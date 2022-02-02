@@ -1,0 +1,156 @@
+@media only screen and (max-width: 2000px){
+    .team .member .member-icon{
+        position: absolute;
+        top: 6px;
+        right: 45px;
+        min-width: 10px;
+    }
+
+}
+@media only screen and (max-width: 996px){
+    .team .member .member-icon{
+        position: absolute;
+        top: 6px;
+        right: 7px;
+        min-width: 10px;
+    }
+
+    .header-scrolled{
+        height: auto;
+    }
+    .main-header .nav-item .nav-link{
+        margin-top: 15px;
+        text-align: center;
+    }
+    .navbar-brand img{
+        max-width: 70%;
+        width: 100px;
+
+    }
+    .gallery-1{
+        flex-wrap:wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-header .header-top{
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    
+       }
+}
+@media only screen and (max-width: 765px){
+    .team .member .member-icon{
+        position: absolute;
+        top: 0;
+        right: 3px;
+        min-width: 10px;
+    }
+    .team .member .member-img .name{
+        position: absolute;
+        right: 17px;
+        bottom: 40px;
+        min-width: 10px;
+    }
+}
+@media only screen and (max-width: 575px) {	
+    section{
+        padding: 20px 0;
+    }
+	.carousel-caption h1 {
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		font-size: 15px;
+	}
+    .carousel-caption p{
+        font-size: 10px;
+    }
+    .carousel-caption .btn-one{
+        font-size: 9px;
+    }
+    .scrollTop{
+        font-size: 25px;
+        bottom: 16px;
+	    right: 22px;
+	    height: 45px;
+	    width: 45px;
+	    border-radius: 3px;
+    }
+ 
+    .team .member .member-icon{
+        position: absolute;
+        top: 6px;
+        right: 7px;
+        min-width: 72px;
+    }
+    .team .member .member-img .name{
+        position: absolute;
+        right: 90px;
+        bottom: 40px;
+        min-width: 10px;
+    }
+    .navbar-brand img{
+        max-width: 50%;
+        width: 80px;
+
+    }
+  
+  
+}
+@media only screen and (max-width: 390px){
+    .carousel-caption h1 {
+		font-size: 15px;
+        visibility: hidden;
+	}
+	.carousel-caption p {
+		font-size: 15px;
+        visibility: hidden;
+	}
+    .carousel-caption p .btn-one {
+        font-size: 7px;
+        visibility: hidden;
+    }
+    /* .scrollTop{
+        font-size: 15px;
+        bottom: 16px;
+	    right: 22px;
+	    height: 30px;
+	    width: 30px;
+	    border-radius: 2px;
+    } */
+    .team .member .member-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 70px;
+    }
+    .team .member .member-img .name{
+        position: absolute;
+        right: 60px;
+        bottom: 40px;
+        min-width: 10px;
+    }
+    .single-box .content,
+    .single-box .content p{
+    align-items: center;
+    bottom: 0;
+	float: left;
+	padding-left: 1px;
+    color: rgb(255, 255, 255);
+   }
+ 
+}  
+@media only screen and (max-width: 310px){
+    .team .member .member-img .name{
+        position: absolute;
+        right: 60px;
+        bottom: 40px;
+        min-width: 10px;
+    }
+    .team .member .member-icon{
+        position: absolute;
+        top: 0;
+        right: 30px;
+        min-width: 10px;
+    }
+    
+}
